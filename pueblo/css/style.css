@@ -1,0 +1,84 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: linear-gradient(90deg,red,rgb(104, 0, 0));
+    margin: 0px;
+}
+div{
+    justify-content: center;
+    text-align: center;
+}
+img{
+    border: ridge blue 12px;
+    border-radius: 10px;
+    width: 35%;
+    height: 35%;
+}
+a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.button{
+    text-align: center;
+    background: linear-gradient(black,rgb(30, 30, 30));
+    padding: 10px;
+    border: solid 3px darkgray;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black;
+    transition: border 0.1s, border-radius 0.1s, padding 0.1s, box-shadow 0.1s;
+}
+.button:hover{
+    border: groove 4px darkgray;
+    border-radius: 6px;
+    padding: 12px;
+    background: linear-gradient(rgb(30, 30, 30),black);
+    box-shadow: 15px 15px 15px black;
+}
+.NAVIG{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    /* padding: 10px; */
+    padding: 20px 20px;
+    /* padding: 20px 10px 50px 30px;; */
+    border: 1px solid limegreen;
+    background: linear-gradient(rgb(0, 0, 0),rgb(70, 68, 68));
+    border-radius: 5px;
+    transition: border 0.25s,padding 0.25s, border-radius 0.25s, font-size 0.25s, box-shadow 0.25s;
+    color: limegreen;
+    box-shadow: 10px 10px 10px black;
+}
+nav{
+    background: linear-gradient(rgb(70,68,68),black);
+    border: 1px solid limegreen;
+}
+.nav:hover{
+    border: groove 4px limegreen;
+    border-radius: 20px;
+    padding: 23px;
+    font-size: larger;
+    box-shadow: 15px 15px 15px black;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+}
+.escudo{
+    border: solid 0px;
+    width: auto;
+    height: auto;
+}
+footer{
+    text-align: center;
+}
+ul{
+    color:white;
+}

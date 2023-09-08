@@ -1,0 +1,99 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+hr{
+    margin: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1{
+    text-align: center;
+}
+div{
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+img{
+    border: groove 10px red;
+    border-radius: 10px;
+}
+body{
+    background: linear-gradient(90deg,blue,rgb(1, 1, 54));
+    margin: 0px;
+}
+a{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+.button{
+    background: linear-gradient(black, rgb(30, 30, 30));
+    padding: 6px;
+    border-radius: 10px;
+    border: solid 3px darkgray;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+    transition: padding 0.1s, border-radius 0.1s, border 0.1s, box-shadow 0.1s;
+}
+.button:hover{
+    padding: 8px;
+    border-radius: 8px;
+    border: groove 5px darkgray;
+    background: linear-gradient(rgb(30, 30, 30),black);
+    box-shadow: 10px 10px 10px black;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: limegreen;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: blue;
+}
+footer{
+    text-align: center;
+}
+.NAVIG{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.linknav{
+    text-decoration: none;
+    color: limegreen;
+    font-size: medium;
+}
+.linknav:visited{
+    color:limegreen
+}
+.nav{
+    /* padding: 10px; */
+    padding: 20px 20px;
+    /* padding: 20px 10px 50px 30px;; */
+    border: 1px solid limegreen;
+    background: linear-gradient(rgb(0, 0, 0),rgb(70, 68, 68));
+    border-radius: 5px;
+    transition: border 0.25s,padding 0.25s, border-radius 0.25s, font-size 0.25s, box-shadow 0.25s;
+    color: limegreen;
+    box-shadow: 10px 10px 10px black;
+}
+nav{
+    background: linear-gradient(rgb(70,68,68),black);
+    border: 1px solid limegreen;
+}
+.nav:hover{
+    border: groove 4px limegreen;
+    border-radius: 20px;
+    padding: 23px;
+    font-size: larger;
+    box-shadow: 15px 15px 15px black;
+}
+.escudo{
+    border: solid 0px;
+}
