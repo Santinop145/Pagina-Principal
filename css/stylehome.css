@@ -21,6 +21,7 @@ p{
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     max-width: 2000px;
+    border: groove 5px white;
 }
 .divparent{
     display: flex;
