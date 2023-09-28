@@ -13,7 +13,7 @@ div{
     display: block;
     border: groove 5px white;
     border-radius: 25px;
-    background: linear-gradient(darkgray, black);
+    background: linear-gradient(rgb(10,10,10), black);
 }
 .NAVIG{
     list-style: none;
